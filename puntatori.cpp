@@ -17,7 +17,7 @@ int *array_return()
   do
   {
     input(scelta);
-    /*if (scelta == 1)
+    if (scelta == 1)
     {
       log("Inserisci i numeri:");
       for (int i = 0; i < n; ++i)
@@ -36,8 +36,7 @@ int *array_return()
     {
       log("Scelta non valida. Riprova:");
     }
-  } while (scelta != 1 && scelta != 2);*/
-  }while (scelta != 1 && scelta != 2);
+  } while (scelta != 1 && scelta != 2);
   return array; // ritorna l' indirizzo di memoria
 }
 
