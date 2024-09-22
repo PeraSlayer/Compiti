@@ -1,3 +1,5 @@
 # Compiti
-Compiti di laboratorio e di teoria
+Compiti di laboratorio e di teoria 3H
+
+qui troverete anche appunti
 
