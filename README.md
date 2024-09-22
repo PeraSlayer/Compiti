@@ -1,2 +1,3 @@
 # Compiti
-Compiti di laboratorio
+Compiti di laboratorio e di teoria
+
