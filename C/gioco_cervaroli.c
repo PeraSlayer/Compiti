@@ -10,7 +10,7 @@ int main() {
     
     puts("BENVENUTO SU INDOVINA IL NUMERO\nHAI 5 TENTATIVI PER INDOVINARE UN NUMERO DA 1 A 100");
     int i; //variabile ciclo
-    for(i = 0; i<=5; ++i){
+    for(i = 1; i<=5; ++i){
         printf("tentativo %d\n",i);
         scanf("%d",&numero_utente);
         //controllo input utente
