@@ -1,7 +1,8 @@
 body{
-    background-image: url("images/tuscany-4108117.jpg");
-    background-size: 1920px 1080px;
+    background-image: url("images/montalcino.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
 }  
@@ -9,4 +10,39 @@ h1{
     text-align: center;
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif
+}
+
+.menu{
+    display: flex;
+    padding: 20px;
+    background-color: #26252495;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+img{
+    width: 100%;
+    max-width: 150px;
+    object-fit: cover;
+    align-items: right;
+    margin-right: 20px;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f4a460;
+    color: white;
+}
+tr:hover {
+    background-color: grey;
 }
